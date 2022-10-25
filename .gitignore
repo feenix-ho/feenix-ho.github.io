@@ -29,6 +29,7 @@ assets/js/dist
 !.husky
 !.commitlintrc.json
 !.versionrc.json
+!.stylelintrc.json
 
 # bundler cache
 _site
