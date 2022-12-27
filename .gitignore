@@ -25,7 +25,6 @@ assets/js/dist
 !.git*
 !.editorconfig
 !.nojekyll
-!.travis.yml
 !.husky
 !.commitlintrc.json
 !.versionrc.json
