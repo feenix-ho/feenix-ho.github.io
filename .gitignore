@@ -20,24 +20,3 @@ package-lock.json
 
 # Misc
 assets/js/dist
-# hidden files
-.*
-!.git*
-!.editorconfig
-!.nojekyll
-!.husky
-!.commitlintrc.json
-!.versionrc.json
-!.stylelintrc.json
-
-# bundler cache
-_site
-vendor
-Gemfile.lock
-
-# rubygem
-*.gem
-
-# npm dependencies
-node_modules
-package-lock.json
