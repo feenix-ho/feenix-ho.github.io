@@ -84,6 +84,8 @@ comments:
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
+    category:
+    category_id:
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
@@ -174,8 +176,10 @@ exclude:
   - package*.json
 
 jekyll-archives:
-  enabled: [tags]
+  enabled: [categories, tags]
   layouts:
+    category: category
     tag: tag
   permalinks:
     tag: /tags/:name/
+    category: /categories/:name/
