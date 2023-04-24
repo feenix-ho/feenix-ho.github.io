@@ -1,15 +1,15 @@
 ---
 layout: post
 title: Markdown Basic Syntax
-date: 2023-03-31 15:27 +0700
-tags: [markdown]
-categories: [Tools and Tips]
+tags:
+- markdown
+categories:
+- Tools and Tips
 toc: true
 comments: true
 math: true
 mermaid: true
 ---
-
 Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
 
 ## Headings
@@ -459,7 +459,7 @@ To italicize text, add one asterisk or underscore before and after a word or phr
         A*cat*meow
       </td>
       <td style="font-family:courier">
-        A&lt;/strong&gt;cat&lt;/strong&gt;meow
+        A&lt;em&gt;cat&lt;/em&gt;meow
       </td>
       <td>
         A<em>cat</em>meow	
@@ -675,7 +675,6 @@ To create an ordered list, add line items with numbers followed by periods. The 
         2. Second item<br>
         3. Third item<br>
         4. Fourth item
-      </code>
     </td>
     <td style="font-family:courier">
         &lt;ol&gt;<br>
@@ -684,7 +683,6 @@ To create an ordered list, add line items with numbers followed by periods. The 
           &nbsp;&nbsp;&lt;li&gt;Third item&lt;/li&gt;<br>
           &nbsp;&nbsp;&lt;li&gt;Fourth item&lt;/li&gt;<br>
         &lt;/ol&gt;
-      </code>
     </td>
     <td>
       <ol>
@@ -1147,3 +1145,296 @@ If the word or phrase you want to denote as code includes one or more backticks,
     </tr>
   </tbody>
 </table>
+
+### Code Blocks
+
+To create code blocks, indent every line of the block by at least four spaces or one tab.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;html&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;/html&gt;<br>
+</p>
+
+The rendered output looks like this:
+
+    <html>
+      <head>
+      </head>
+    </html>
+
+{% include note.html content="To create code blocks without indenting lines, use [fenced code blocks]()." %}
+
+## Horizontal Rules
+
+To create a horizontal rule, use three or more asterisks (<span style="font-family:courier">\*\*\*</span>), dashes (<span style="font-family:courier">---</span>), or underscores (<span style="font-family:courier">\_\_\_</span>) on a line by themselves.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+      ***<br>
+      ---<br>
+      _________________<br>
+</p>
+
+The rendered output of all three looks identical:
+
+---
+
+### Horizontal Rule Best Practices
+
+For compatibility, put blank lines before and after horizontal rules.
+
+<table>
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-family:courier">
+        Try to put a blank line before...<br><br>
+        ---<br><br>
+        ...and after a horizontal rule.
+      </td>
+      <td style="font-family:courier">
+        Without blank lines, this would be a heading.<br>
+        ---<br>
+        Don't do this!
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Links
+
+To create a link, enclose the link text in brackets (e.g., <span style="font-family:courier">[Duck Duck Go]</span>) and then follow it immediately with the URL in parentheses (e.g., <span style="font-family:courier">(https://duckduckgo.com)</span>).
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+  My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+</p>
+
+The rendered output looks like this:
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+
+{% include note.html content="To link to an element on the same page, see [linking to heading IDs](). To create a link that opens in a new tab or window, see the section on [link targets]()." %}
+
+### Adding Titles
+
+You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in quotation marks after the URL.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+  My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+</p>
+
+The rendered output looks like this:
+
+My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+
+### URLs and Email Addresses
+
+To quickly turn a URL or email address into a link, enclose it in angle brackets.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+  &lt;https://www.markdownguide.org><br>
+  &lt;fake@example.com><br>
+</p>
+
+The rendered output looks like this:
+
+<https://www.markdownguide.org>  
+<fake@example.com>
+
+### Formatting Links
+
+To [emphasize]() links, add asterisks before and after the brackets and parentheses. To denote links as [code](), add backticks in the brackets.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+  I love supporting the **[EFF](https://eff.org)**.<br>
+  This is the *[Markdown Guide](https://www.markdownguide.org)*.<br>
+  See the section on [`code`](#code).
+</p>
+
+The rendered output looks like this:
+
+I love supporting the **[EFF](https://eff.org)**.  
+This is the _[Markdown Guide](https://www.markdownguide.org)_.  
+See the section on [`code`](#code).
+
+### Reference-style Links
+
+Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
+
+#### Formatting the First Part of the Link
+
+The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you’re storing elsewhere in your document.
+
+Although not required, you can include a space between the first and second set of brackets. The label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
+
+This means the following example formats are roughly equivalent for the first part of the link:
+
+- <span style="font-family:courier">[hobbit-hole][1]</span>
+- <span style="font-family:courier">[hobbit-hole] [1]</span>
+
+#### Formatting the Second Part of the Link
+
+The second part of a reference-style link is formatted with the following attributes:
+
+1. The label, in brackets, followed immediately by a colon and at least one space (e.g., <span style="font-family:courier">[label]:</span> ).
+2. The URL for the link, which you can optionally enclose in angle brackets.
+3. The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
+
+### Link Best Practices
+
+Markdown applications don’t agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with %20. Alternatively, if your Markdown application [supports HTML](#html), you could use the a HTML tag.
+
+<table>
+  <thead class="thead-light">
+    <tr>
+      <th>✅&nbsp; Do this</th>
+      <th>❌&nbsp; Don't do this</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-family:courier">
+        [link](https://www.example.com/my%20great%20page)<br><br>
+        &lt;a href="https://www.example.com/my great page"&gt;link&lt;/a&gt;
+      </td>
+      <td style="font-family:courier">
+        [link](https://www.example.com/my great page)
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Images
+
+To add an image, add an exclamation mark (<span style="font-family:courier">!</span>), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title in quotation marks after the path or URL.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+![My Self Portrait](/assets/img/avatar.png "My Self Portrait")
+</p>
+
+The rendered output looks like this:
+
+![My Self Portrait](/assets/img/avatar.png "My Self Portrait")
+
+{% include note.html content="To resize an image, see the section on [image size](). To add a caption, see the section on [image captions]()."%}
+
+### Linking Images
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+[![An old rock in the desert](/assets/img/2023-03-31-markdown-basic-syntax/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+</p>
+
+The rendered output looks like this:
+
+[![An old rock in the desert](/assets/img/2023-03-31-markdown-basic-syntax/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+
+## Escaping Characters
+
+To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (<span style="font-family:courier">\</span>) in front of the character.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+\* Without the backslash, this would be a bullet in an unordered list.
+</p>
+
+\* Without the backslash, this would be a bullet in an unordered list.
+
+### Characters You Can Escape
+
+You can use a backslash to escape the following characters.
+
+<table>
+  <thead class="thead-light">
+    <tr>
+      <th>Character</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="font-family:courier">\</td>
+      <td>backslash</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">`</td>
+      <td>backtick (see also <a href="#escaping-backticks">escaping backticks in code</a>)</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">*</td>
+      <td>asterisk</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">_</td>
+      <td>underscore</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">{ }</td>
+      <td>curly braces</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">[ ]</td>
+      <td>brackets</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">&lt; &gt;</td>
+      <td>angle brackets</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">( )</td>
+      <td>parentheses</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">#</td>
+      <td>pound sign</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">+</td>
+      <td>plus sign</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">-</td>
+      <td>minus sign (hyphen)</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">.</td>
+      <td>dot</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">!</td>
+      <td>exclamation mark</td>
+    </tr>
+    <tr>
+      <td style="font-family:courier">|</td>
+      <td>pipe (see also <a href="{% post_url 2023-04-01-markdown-extended-syntax %}#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
+    </tr>
+  </tbody>
+</table>
+
+## HTML
+
+Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the [color of text]() or changing the width of an image.
+
+To use HTML, place the tags in the text of your Markdown-formatted file.
+
+<p class="highlight" style="font-family:courier; padding-bottom:10px; padding-left:20px">
+This **word** is bold. This <em>word</em> is italic.
+</p>
+
+The rendered output looks like this:
+
+This **word** is bold. This <em>word</em> is italic.
+
+### HTML Best Practices
+
+For security reasons, not all Markdown applications support HTML in Markdown documents. When in doubt, check your Markdown application’s documentation. Some applications support only a subset of HTML tags.
+
+Use blank lines to separate block-level HTML elements like <span style="font-family:courier">&lt;div></span>, <span style="font-family:courier">&lt;table></span>, <span style="font-family:courier">&lt;pre></span>, and <span style="font-family:courier">&lt;p></span> from the surrounding content. Try not to indent the tags with tabs or spaces — that can interfere with the formatting.
+
+You can’t use Markdown syntax inside block-level HTML tags. For example, <span style="font-family:courier">&lt;p>\*italic\* and \*\*bold\*\*&lt;/p></span> won’t work.
