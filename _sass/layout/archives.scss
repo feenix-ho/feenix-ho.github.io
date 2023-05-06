@@ -86,7 +86,9 @@
     &:last-child li:last-child::before {
       height: 1.5rem;
     }
-  } /* #archives ul */
+  } 
+  
+  /* #archives ul */
 
   .date {
     white-space: nowrap;
@@ -101,11 +103,13 @@
 
     &.day {
       font-size: 85%;
+     
       // font-family: 'Noto Sans SC', 'Noto', sans-serif;
     }
   }
 
   a {
+    
     /* post title in Archvies */
     margin-left: 2.5rem;
     position: relative;
@@ -116,6 +120,7 @@
     }
 
     &::before {
+      
       /* the dot before post title */
       content: '';
       display: inline-block;
@@ -131,7 +136,9 @@
       z-index: 1;
     }
   }
-} /* #archives */
+} 
+
+/* #archives */
 
 @media all and (max-width: 576px) {
   #archives {
