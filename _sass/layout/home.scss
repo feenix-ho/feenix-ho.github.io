@@ -4,6 +4,7 @@
 
 .pagination {
   color: var(--btn-patinator-text-color);
+  
   // font-family: 'Noto Sans SC', 'Noto', sans-serif;
 
   a:hover {
@@ -121,8 +122,12 @@
         -webkit-box-orient: vertical;
       }
     }
-  } /* .post-preview */
-} /* #post-list */
+  } 
+  
+  /* .post-preview */
+}
+
+/* #post-list */
 
 @media (hover: hover) {
   .post-preview {
@@ -191,7 +196,9 @@
     .page-index {
       display: none;
     }
-  } /* .pagination */
+  } 
+  
+  /* .pagination */
 }
 
 /* Panel hidden */
