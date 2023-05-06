@@ -1,6 +1,6 @@
 theme: jekyll-theme-chirpy
 
-# baseurl: ""
+baseurl: "/blog"
 
 lang: en
 
@@ -13,7 +13,7 @@ tagline: I document things I find interesting
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
-url: "https://gulutheblog.github.io"
+url: "https://feenix-ho.github.io"
 
 github:
   username: feenix-ho
