@@ -4,12 +4,11 @@ title: Some Thoughts on Current Large Language Models
 date: 2023-04-24 15:30 +0700
 tags:
   [
-    natural_language_processing,
-    AI_assistant,
-    language_models,
+    natural-language-processing,
+    AI-assistant,
+    large-language-models,
     ChatGPT,
-    BingAI,
-    Vietnamese,
+    BingAI
   ]
 categories: [AI Tools, Chat Models]
 toc: true

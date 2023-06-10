@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Markdown Basic Syntax
-tags:
-- markdown
-categories:
-- Tools and Tips
+categories: [Tools and Tips]
+tags: [markdown]
 toc: true
 comments: true
 math: true
 mermaid: true
 ---
+
 Nearly all Markdown applications support the basic syntax outlined in the original Markdown design document. There are minor variations and discrepancies between Markdown processors — those are noted inline wherever possible.
 
 ## Headings

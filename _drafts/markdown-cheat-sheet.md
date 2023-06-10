@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Markdown Cheat Sheet
-categories:
-- Tools and Tips
-tags:
-- markdown
+categories: [Tools and Tips]
+tags: [markdown]
 toc: true
 comments: true
 math: true
 mermaid: true
 ---
+
 This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax]({% post_url 2023-03-31-markdown-basic-syntax %}) and [extended syntax]({% post_url 2023-04-01-markdown-extended-syntax %}).
 
 ## Basic Syntax

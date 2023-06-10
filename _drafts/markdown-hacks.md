@@ -1,15 +1,14 @@
 ---
 layout: post
 title: Markdown Hacks
-categories:
-- Tools and Tips
-tags:
-- markdown
+categories: [Tools and Tips]
+tags: [markdown]
 toc: true
 comments: true
 math: true
 mermaid: true
 ---
+
 The majority of people using Markdown will find that the [basic]() and [extended syntax]() elements cover their needs. But chances are that if you use Markdown long enough, you’ll inevitably discover that it doesn’t support something you need. This page provides tips and tricks for working around Markdown’s limitations.
 
 {% include tip.html content="These hacks aren't guaranteed to work in your Markdown application. If you need to use these hacks frequently, you should consider writing using something other than Markdown." %}
