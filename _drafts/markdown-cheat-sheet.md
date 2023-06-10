@@ -3,7 +3,6 @@ layout: post
 title: Markdown Cheat Sheet
 categories: [Tools and Tips]
 tags: [markdown]
-toc: true
 comments: true
 math: true
 mermaid: true

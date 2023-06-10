@@ -3,7 +3,6 @@ layout: post
 title: Markdown Hacks
 categories: [Tools and Tips]
 tags: [markdown]
-toc: true
 comments: true
 math: true
 mermaid: true

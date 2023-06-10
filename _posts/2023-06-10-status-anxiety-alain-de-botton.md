@@ -5,8 +5,7 @@ categories:
   - Books
   - Self-help
 tags:
-  - alain-de-botton
-toc: true
+  - Alain-de-Botton
 comments: true
 math: true
 mermaid: true

@@ -11,7 +11,6 @@ tags:
     BingAI
   ]
 categories: [AI Tools, Chat Models]
-toc: true
 comments: true
 math: true
 mermaid: true
