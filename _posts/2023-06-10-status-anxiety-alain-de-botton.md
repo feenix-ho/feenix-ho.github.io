@@ -61,11 +61,14 @@ date: 2023-06-10 19:23 +0700
     - tình trạng không chắc chắn về giá trị địa vị → xu hướng chấp nhận sự đánh giá của người khác ảnh hưởng đến cách nhìn nhận về bản thân
       $\rightarrow$ tâm trạng dễ dàng bị ảnh hưởng bởi thái độ của người xung quanh
 
-> [!note] Tổng kết:
->
-> - nhu cầu yêu và khao khát về địa vị có mối quan hệ mật thiết
-> - địa vị quyết định việc chúng ta được ban cho bao nhiêu tình yêu
->   → là chìa khóa quan trọng trong việc thiết lập nhận thức về những thứ bản thân sở hữu và đạt được
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  - nhu cầu yêu và khao khát về địa vị có mối quan hệ mật thiết <br>
+  - địa vị quyết định việc chúng ta được ban cho bao nhiêu tình yêu <br>
+  → là chìa khóa quan trọng trong việc thiết lập nhận thức về những thứ bản thân sở hữu và đạt được
+</div>
 
 ### Sự kỳ vọng
 
@@ -118,9 +121,12 @@ date: 2023-06-10 19:23 +0700
     - những gì ta muốn có — những gì ta có thể có
     - những gì con người có thể là — những gì con người thực sự là
 
-> [!note] **Tổng kết:**
->
-> - Cái giá chúng ta trả cho sự kỳ vọng được dư dả hơn tổ tiên chính là nỗi lo âu vĩnh cửu rằng không biết đến bao giờ ta mới trở thành cái mà ta-có-thể-là.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Cái giá chúng ta trả cho sự kỳ vọng được dư dả hơn tổ tiên chính là nỗi lo âu vĩnh cửu rằng không biết đến bao giờ ta mới trở thành cái mà ta-có-thể-là.
+</div>
 
 ### Nền tinh anh trị
 
@@ -161,9 +167,12 @@ date: 2023-06-10 19:23 +0700
   - Sự trỗi dậy của nền tinh anh trị (The Rise of Meritocracy) — Michael Young
   - Xát muối vào nỗi đau của nghèo khó, một hệ thống tinh anh trị giờ đây gây thêm sự sỉ nhục cho nỗi hổ thẹn.
 
-> [!note] **Tổng kết:**
->
-> - Những sự cố gắng của xã hội trong việc bình đẳng hóa cơ hội phân phát cho các thành viên trong xã hội cùng với những lý thuyết biện minh cho giai cấp thống trị giờ đây trở thành một con dao cùn, cắt vào da vào thịt của sự nghèo khó.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Những sự cố gắng của xã hội trong việc bình đẳng hóa cơ hội phân phát cho các thành viên trong xã hội cùng với những lý thuyết biện minh cho giai cấp thống trị giờ đây trở thành một con dao cùn, cắt vào da vào thịt của sự nghèo khó.
+</div>
 
 ### Thói hợm hĩnh
 
@@ -179,9 +188,12 @@ date: 2023-06-10 19:23 +0700
     - lịch sử đồ xa xỉ có thể được xem như một bản ghi chép về chấn thương cảm xúc, khi mà người ta cảm thấy áp lực từ sự khinh thị của người khác, buộc họ phải bồi đáp thêm một lượng khác vào cái tôi trần trụ, từ đó phét ra tín hiệu rằng họ cũng có thể đưa ra đòi hỏi được yêu
   - tính tập thể của căn-bệnh hợm hĩnh
 
-> [!note] **Tổng kết:**
->
-> - Nếu cái nghèo là án phạt vật chất có tính tục lệ cho địa vị thấp, thì sự thờ ơ và cái nhìn dửng dưng là án phạt cảm xúc mà thế giới hợm hĩnh áp đặt lên những ai thiếu các biểu tượng của tầm quan trọng.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Nếu cái nghèo là án phạt vật chất có tính tục lệ cho địa vị thấp, thì sự thờ ơ và cái nhìn dửng dưng là án phạt cảm xúc mà thế giới hợm hĩnh áp đặt lên những ai thiếu các biểu tượng của tầm quan trọng.
+</div>
 
 ### Sự phụ thuộc
 
@@ -217,9 +229,12 @@ date: 2023-06-10 19:23 +0700
     - cùng với sự áp bức của lớp chủ, người làm công cũng bắt đầu vô cảm và thờ ơ với hàng xóm láng giềng
     - 2 đòi hỏi phân rẽ cùng tồn tại: đòi hỏi về kinh tế và đòi hỏi về con người
 
-> [!note] **Tổng kết:**
->
-> - Công việc quyết định mức độ quan trọng và quan tâm mà ta đạt được, song, nó lại phụ thuộc vào những thành tố mà ta hầu như không thể quyết định. Thế là, về phần mình, nhu cầu tình yêu của chúng ta vẫn không dao động, không lung lay hoặc bớt nhất quán hơn thời chúng ta còn thơ bé, trong khi đó sự mất cân bằng giữa những đòi hỏi của ta và những thành tố bấp bênh tạo nên những trụ cột cho mối lo âu về địa vị trong mỗi con người.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Công việc quyết định mức độ quan trọng và quan tâm mà ta đạt được, song, nó lại phụ thuộc vào những thành tố mà ta hầu như không thể quyết định. Thế là, về phần mình, nhu cầu tình yêu của chúng ta vẫn không dao động, không lung lay hoặc bớt nhất quán hơn thời chúng ta còn thơ bé, trong khi đó sự mất cân bằng giữa những đòi hỏi của ta và những thành tố bấp bênh tạo nên những trụ cột cho mối lo âu về địa vị trong mỗi con người.
+</div>
 
 ## Giải pháp
 
@@ -247,9 +262,12 @@ date: 2023-06-10 19:23 +0700
 - đánh giá các luồng ý kiến trước khi tiếp thu, kể cả các lời khen và lời chê trách
 - "nỗi cô độc hoặc sự dung tục"
 
-> [!note] **Tổng kết:**
->
-> - Trong nhiều trường hợp, sự chỉ trích của người khác chỉ làm ta trở nên lo âu hơn về địa vị của bản thân. Nhiều triết học gia đưa ra phương pháp, rằng thay vì tự hình dung bản thân hoàn toàn bằng nhìn nhận của người khác, ta nên đánh giá các nhận xét từ bên ngoài trước khi thật sự tiếp thu.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Trong nhiều trường hợp, sự chỉ trích của người khác chỉ làm ta trở nên lo âu hơn về địa vị của bản thân. Nhiều triết học gia đưa ra phương pháp, rằng thay vì tự hình dung bản thân hoàn toàn bằng nhìn nhận của người khác, ta nên đánh giá các nhận xét từ bên ngoài trước khi thật sự tiếp thu.
+</div>
 
 ### Nghệ thuật
 
@@ -284,7 +302,12 @@ date: 2023-06-10 19:23 +0700
   - đã nhiều lần trong lịch sử nhân loại, các nhà biếm họa đã bước vào các mốt khó hiểu của con người để lên tiếng kêu gọi sự chính đốn
   - óc hài hước có thể giúp ta giải nghĩa, thậm chí làm dịu bớt, những lo âu địa vị của chính mình
 
-> [!note] **Tổng kết:** Nghệ thuật, bằng cách này hay cách khác, giúp chúng ta cân bằng nỗi lo âu về địa vị. Trong khi bi kịch giúp ta có cái nhìn rộng lượng hơn với thất bại của người khác, hài kịch giúp ta rộng lượng hơn với thất bại của chính mình. Theo như Matthew Arnold định nghĩa, rằng nghệ thuật là một sự rèn luyện nhằm đưa ra lời phê bình về cuộc đời.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Nghệ thuật, bằng cách này hay cách khác, giúp chúng ta cân bằng nỗi lo âu về địa vị. Trong khi bi kịch giúp ta có cái nhìn rộng lượng hơn với thất bại của người khác, hài kịch giúp ta rộng lượng hơn với thất bại của chính mình. Theo như Matthew Arnold định nghĩa, rằng nghệ thuật là một sự rèn luyện nhằm đưa ra lời phê bình về cuộc đời.
+</div>
 
 ### Chính trị
 
@@ -319,9 +342,12 @@ date: 2023-06-10 19:23 +0700
 - Nhãn quan chính trị
   - Nhãn quan chính trị sẽ giúp người bị áp bức tưởng tượng được rằng có thể chính lý tưởng, chứ không phải thứ gì đó trong tính cách họ, mới đang có sai trái. Thay vì ngượng ngùng tự hỏi, _Tôi_ có gì sai (là phụ nữ/da màu/không có tiền), họ được khuyến khích hỏi, Liệu có gì sai, bất công, hay phi logic với _những người khác_ khi họ khinh thị tôi.
 
-> [!note] **Tổng kết:**
->
-> - Chính trị đóng vai trò quan trọng trong việc hình thành các định kiến về địa vị. Vấn đề ở đây là, các ý tưởng chính trị lại mang tính ý thức hệ. Chúng được tạo ra bởi tầng lớp thống trị. Định kiến tạo nên để chèn ép thành phần yếu thế hơn của xã hội. Việc hiểu được các ý tưởng có vẻ như là lẽ tự nhiên mà chúng ta bị áp đặt thực ra chỉ đơn thuần là một hệ ý thức có tính thống trị có thể không thay đổi được hoàn toàn hệ tư tưởng của xã hội, song việc hiểu đó sẽ khiến chúng ta có cái nhìn khách quan hơn khi đánh giá địa vị của chính bản thân mình.
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Chính trị đóng vai trò quan trọng trong việc hình thành các định kiến về địa vị. Vấn đề ở đây là, các ý tưởng chính trị lại mang tính ý thức hệ. Chúng được tạo ra bởi tầng lớp thống trị. Định kiến tạo nên để chèn ép thành phần yếu thế hơn của xã hội. Việc hiểu được các ý tưởng có vẻ như là lẽ tự nhiên mà chúng ta bị áp đặt thực ra chỉ đơn thuần là một hệ ý thức có tính thống trị có thể không thay đổi được hoàn toàn hệ tư tưởng của xã hội, song việc hiểu đó sẽ khiến chúng ta có cái nhìn khách quan hơn khi đánh giá địa vị của chính bản thân mình.
+</div>
 
 ### Tôn giáo
 
@@ -344,9 +370,13 @@ date: 2023-06-10 19:23 +0700
 
 - Tất nhiên, Kito giáo chưa bao giờ thành công trong việc hủy bỏ Thành phố Trần gian hay các giá trị của nó, tuy nhiên chúng ta vẫn ý thức được sự tách biệt nào đó giữa của cải và phẩm hạnh, và vẫn thắc mắc về ai đó rằng họ có tử tế hay không vì mức độ quan trọng của họ, thì phần lớn là nhờ ấn tượng đặt lên ý thức phương Tây bởi một tôn giáo từ nhiều thế kỷ đã dùng tài nguyên và thanh danh của nó để bảo vệ một nhóm những ý tưởng phi thường liên quan đến việc phân phối địa vị một cách đúng đắn.
 - Trong một thế giới nơi các tòa nhà thế tục không ngừng thì thầm với ta về tầm quan trọng của sức mạnh trần thế, các thánh đường vốn đánh dấu đường chân trời của những thị trấn và thành phố vĩ đại có thể tiếp tục cung cấp một không gian lưu giữ tưởng tượng cho những mối ưu tiên về tinh thần.
-  > [!note] **Tổng kết:**
-  >
-  > - Trong khi các hệ tư tưởng thống trị vẫn hoành hành ở thế giới trần gian, những hệ tư tưởng của tôn giáo đem lại tạo cho người ta một khoảng không gian, nơi mà con người có thể có những tín ngưỡng của riêng họ. Họ có nơi để tin rằng, con người, dù giàu sang hay nghèo khó, rồi thì đều sẽ đi đến một kết cục như nhau: chết. Chính sự bình đẳng đó, cùng với hệ tư tưởng về Chúa, khiến cho người ta phần nào đó ít chú tâm vào những thứ hào nhoáng bên ngoài, mà thay vào đó, nhìn vào những mối ưu tiên về tinh thần.
+
+<div markdown="span" class="alert alert-info" role="alert">
+  <i class="fa fa-info-circle"></i>
+  <b>Tổng kết:</b>
+  <br>
+  Trong khi các hệ tư tưởng thống trị vẫn hoành hành ở thế giới trần gian, những hệ tư tưởng của tôn giáo đem lại tạo cho người ta một khoảng không gian, nơi mà con người có thể có những tín ngưỡng của riêng họ. Họ có nơi để tin rằng, con người, dù giàu sang hay nghèo khó, rồi thì đều sẽ đi đến một kết cục như nhau: chết. Chính sự bình đẳng đó, cùng với hệ tư tưởng về Chúa, khiến cho người ta phần nào đó ít chú tâm vào những thứ hào nhoáng bên ngoài, mà thay vào đó, nhìn vào những mối ưu tiên về tinh thần.
+</div>
 
 ### Bohemian
 
