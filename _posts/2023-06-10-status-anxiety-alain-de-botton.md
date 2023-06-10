@@ -3,7 +3,7 @@ layout: post
 title: Status Anxiety - Alain de Botton
 categories:
   - Books
-  - Self-help
+  - Summaries
 tags:
   - Alain-de-Botton
 comments: true
