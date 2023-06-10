@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Status Anxiety - Alain de Botton
-categories:
-  - Books
-  - Summaries
-tags:
-  - Alain-de-Botton
+categories: [Books, Summaries]
+tags: [Alain-de-Botton]
 comments: true
 math: true
 mermaid: true
