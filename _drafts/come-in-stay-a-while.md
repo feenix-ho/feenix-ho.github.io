@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Come In, Stay A While
-categories: [Fanfictions]
+categories: [Fan Fictions]
 tags: [ChanBaek]
 comments: true
 math: true
